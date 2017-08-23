@@ -1,0 +1,81 @@
+arm_controller/gains/elbow_joint/i: 10
+arm_controller/gains/elbow_joint/d: 1 
+arm_controller/gains/elbow_joint/p: 1000 
+arm_controller/gains/shoulder_lift_joint/d: 10 
+arm_controller/gains/shoulder_lift_joint/i: 1 
+arm_controller/gains/shoulder_lift_joint/p: 1000 
+arm_controller/gains/shoulder_pan_joint/d: 10 
+arm_controller/gains/shoulder_pan_joint/i: 1 
+arm_controller/gains/shoulder_pan_joint/p: 1000 
+arm_controller/gains/wrist_1_joint/d: 10 
+arm_controller/gains/wrist_1_joint/i: 1 
+arm_controller/gains/wrist_1_joint/p: 1000 
+arm_controller/gains/wrist_2_joint/d: 10 
+arm_controller/gains/wrist_2_joint/i: 1 
+arm_controller/gains/wrist_2_joint/p: 1000
+arm_controller/gains/wrist_3_joint/d: 10 
+arm_controller/gains/wrist_3_joint/i: 1 
+arm_controller/gains/wrist_3_joint/p: 1000 
+
+/ddynrec/robot___elbow_joint___damping: 25.0
+/ddynrec/robot___elbow_joint___friction: 25.0
+/ddynrec/robot___shoulder_lift_joint___damping: 25.0
+/ddynrec/robot___shoulder_lift_joint___friction: 25.0
+/ddynrec/robot___shoulder_pan_joint___damping: 25.0
+/ddynrec/robot___shoulder_pan_joint___friction: 25.0
+/ddynrec/robot___world_joint___damping: 25.0
+/ddynrec/robot___world_joint___friction: 25.0
+/ddynrec/robot___wrist_1_joint___damping: 25.0
+/ddynrec/robot___wrist_1_joint___friction: 25.0
+/ddynrec/robot___wrist_2_joint___damping: 25.0
+/ddynrec/robot___wrist_2_joint___friction: 25.0
+/ddynrec/robot___wrist_3_joint___damping: 25.0
+/ddynrec/robot___wrist_3_joint___friction: 25.0
+
+# /luke_left_hand_description/wrist_rot/damping: 0.0
+# /luke_left_hand_description/wrist_rot/friction: 0.0
+# /luke_left_hand_description/thumb_yaw/damping: 0.0
+# /luke_left_hand_description/thumb_yaw/friction: 0.0
+# /luke_left_hand_description/index_proximal_flex/damping: 0.0
+# /luke_left_hand_description/index_proximal_flex/friction: 0.0
+# /luke_left_hand_description/wrist_flex/damping: 0.0
+# /luke_left_hand_description/wrist_flex/friction: 0.0
+# /luke_left_hand_description/thumb_pitch/damping: 0.0
+# /luke_left_hand_description/thumb_pitch/friction: 0.0
+# /luke_left_hand_description/mrp_differential_flex/damping: 0.0
+# /luke_left_hand_description/mrp_differential_flex/friction: 0.0
+
+/luke_left_hand_description/elbow/damping: 0.0
+/luke_left_hand_description/elbow/friction: 0.0
+/luke_left_hand_description/index_distal_flex/damping: 0.0
+/luke_left_hand_description/index_distal_flex/friction: 0.0
+/luke_left_hand_description/index_proximal_flex/damping: 0.0
+/luke_left_hand_description/index_proximal_flex/friction: 0.0
+/luke_left_hand_description/middle_distal_flex/damping: 0.0
+/luke_left_hand_description/middle_distal_flex/friction: 0.0
+/luke_left_hand_description/middle_median_flex/damping: 0.0
+/luke_left_hand_description/middle_median_flex/friction: 0.0
+/luke_left_hand_description/middle_proximal_flex/damping: 0.0
+/luke_left_hand_description/middle_proximal_flex/friction: 0.0
+/luke_left_hand_description/mrp_differential_flex/damping: 0.0
+/luke_left_hand_description/mrp_differential_flex/friction: 0.0
+/luke_left_hand_description/pinky_distal_flex/damping: 0.0
+/luke_left_hand_description/pinky_distal_flex/friction: 0.0
+/luke_left_hand_description/pinky_proximal_flex/damping: 0.0
+/luke_left_hand_description/pinky_proximal_flex/friction: 0.0
+/luke_left_hand_description/ring_distal_flex/damping: 0.0
+/luke_left_hand_description/ring_distal_flex/friction: 0.0
+/luke_left_hand_description/ring_median_flex/damping: 0.0
+/luke_left_hand_description/ring_median_flex/friction: 0.0
+/luke_left_hand_description/ring_proximal_flex/damping: 0.0
+/luke_left_hand_description/ring_proximal_flex/friction: 0.0
+/luke_left_hand_description/thumb_pitch/damping: 0.0
+/luke_left_hand_description/thumb_pitch/friction: 0.0
+/luke_left_hand_description/thumb_yaw/damping: 0.0
+/luke_left_hand_description/thumb_yaw/friction: 0.0
+/luke_left_hand_description/wrist_ab_ad/damping: 0.0
+/luke_left_hand_description/wrist_ab_ad/friction: 0.0
+/luke_left_hand_description/wrist_flex/damping: 0.0
+/luke_left_hand_description/wrist_flex/friction: 0.0
+/luke_left_hand_description/wrist_rot/damping: 0.0
+/luke_left_hand_description/wrist_rot/friction: 0.0

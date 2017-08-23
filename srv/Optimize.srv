@@ -1,0 +1,20 @@
+string[] observation_values
+
+# start/end signals dictionaries encoded as JSON
+string start_signals
+string end_signals
+
+string src_topic
+string dst_topic
+
+string src_bag
+string dst_bag
+
+Experiment[] experiments
+
+---
+
+bool success
+
+
+
