@@ -11,10 +11,6 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
-  ur5_moveit_config
-  ur_bringup
-  ur_driver
-  ur_gazebo
   dynamic_reconfigure
   message_generation
 )

@@ -2,7 +2,6 @@
 import sys
 import numpy as np
 from scipy import interpolate
-from collections import defaultdict
 import rospy
 import dynamic_reconfigure.client
 import rosbag
@@ -21,8 +20,6 @@ import yaml
 
 from timeout import timeout
 from optimizer import optimizer
-
-import matplotlib.pyplot as plt
 
 import os
 

@@ -43,18 +43,10 @@
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
-  <build_depend>ur5_moveit_config</build_depend>
-  <build_depend>ur_bringup</build_depend>
-  <build_depend>ur_driver</build_depend>
-  <build_depend>ur_gazebo</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>
-  <run_depend>ur5_moveit_config</run_depend>
-  <run_depend>ur_bringup</run_depend>
-  <run_depend>ur_driver</run_depend>
-  <run_depend>ur_gazebo</run_depend>
   <run_depend>dynamic_reconfigure</run_depend>
 
   <build_depend>message_generation</build_depend>
