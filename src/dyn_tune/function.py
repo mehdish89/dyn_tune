@@ -4,6 +4,8 @@ import errno
 import rospkg
 import copy
 
+import function
+
 
 
 rospack = rospkg.RosPack()
