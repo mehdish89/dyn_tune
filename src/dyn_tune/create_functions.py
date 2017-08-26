@@ -8,7 +8,6 @@ def save(arg):
 		def wrapper(func):
 			func.__name__ = arg
 			func.save(func.get_name())
-			# print func.types
 			return func
 		return wrapper
 	else:

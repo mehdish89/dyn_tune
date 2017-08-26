@@ -11,12 +11,8 @@ import function
 rospack = rospkg.RosPack()
 
 class Resolver(object):
-	
-	# types = []
 
 	def validate_rule(self, arg_types, arg_rule):
-
-		# print "validating ", arg_types, " agianst ", arg_rule
 
 		def is_valid(type_src, type_dst):
 			return ( type_src == type_dst or type_dst == "*" or
@@ -85,8 +81,6 @@ class Resolver(object):
 				raise KeyError('Cannot resolve the argument \'{arg}\''.format(arg = arg))
 			rargs.append(copy.copy(kwargs.get(arg)))
 
-		# print "Resolved ARGS are: ", rargs
-
 		return self.func(*rargs)
 
 	def serialize(self):
@@ -133,15 +127,11 @@ class Function():
 
 
 	def __call__(self, *args, **values):
-
-		locals_0 = locals().copy()
-
 		current = {}
 		current.update(values)
 
 		for i in range(len(args)):
 			current.update({'args[{0}]'.format(i):current[args[i]]})
-
 
 		for func, args, retvar, has_script, script in self.tasks:					
 			if func != None:
@@ -180,12 +170,6 @@ class Function():
 		code = self.serialize()
 		file.write(code)
 
-	# @staticmethod
-	# def load(filename):
-	# 	file = open(filename, 'r')
-	# 	code = self.serialize()
-
-
 
 	def validate(self, arg_types):
 		return arg_types in self.types
@@ -209,45 +193,5 @@ def load_functions(path = rospack.get_path('dyn_tune')+'/functions/default'):
 
 
 
-
-
-# @accept("int[]","int[]")
-# @accept("float[]","float[]")
-# @accept("int", "int")
-# @accept("float", "float")
-# @Resolver
-# def ADD(a, b):
-# 	return a+b
-
-# @accept("int[]","int[]")
-# @accept("float[]","float[]")
-# @accept("int", "int")
-# @accept("float", "float")
-# @Resolver
-# def MULT(a, b):
-# 	return a*b
-
-# @accept("int[]","int[]")
-# @accept("float[]","float[]")
-# @accept("int", "int")
-# @accept("float", "float")
-# @Resolver
-# def SUB(a, b):
-# 	return a-b
-
-# print ADD.types
-# print ADD.validate(("float", "float"))
-# print ADD.validate(("float[]", "float[]"))
-# print ADD.validate((int, int))
-# print ADD.validate((float, float, float))
-
-# abs = Resolver(abs)
-
-# func = Function()
-# func.add_task(ADD, ['args[0]','args[1]'], 'abs_val')
-# func.add_task(abs, ['abs_val'], 'ret_val')
-# func.retvar = 'ret_val'
-# print func('a','b','c','d', a=10, b=-12, c=33, d=55)
-# print func('a','b', a=43, b=64)
 
 
