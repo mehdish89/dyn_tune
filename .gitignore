@@ -39,3 +39,4 @@ Thumbs.db
 #######
 *.bag
 *.dat
+*.pyc
