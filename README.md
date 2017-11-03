@@ -1,15 +1,15 @@
 # dyn_tune
 **dyn_tune** is a package providing automatic tuning of dynamically reconfigurable parameters for a simulated or physical robotic system operating in ROS. Every parameter that is defined using [dynamic_reconfigure](http://wiki.ros.org/dynamic_reconfigure) package, could potentially be tuned using this tool. The user is in charge of providing a ROS bag as ground truth/experiment, as well as defining an objective funciton over the values published on ROS topics. The objective value for each set of parameter values determines how favorable those parameter values are. A stochastic optimization algorithm is used to find the optimum set of values for the parameters. 
 
-## Install/Test
-For installing this package, first create a Catkin workspace if you dont have it already.
+## Install / Test
+Currently, the package is tested on Ubuntu 16.04 Xenial and ROS Kinetic. For installing the package, first you need to create a Catkin workspace if you dont have one already.
 ```
 $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/
 $ catkin_init_workspace
 ```
-Then, clone the repository in it and build the workspace.
 
+Then, clone the repository in it and build the workspace.
 ```
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/mehdish89/dyn_tune
