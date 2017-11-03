@@ -32,7 +32,7 @@ $ rosservice list
 /rosout/set_logger_level
 ```
 ## GUI
-You could utilize the tool in a much more conveniently, by installing [rqt_dyn_tune](https://github.com/mehdish89/dyn_tune) package, which is a rqt plugin graphical user interface for **dyn_tune**.
+You could utilize the tool in a much more conveniently, by installing [rqt_dyn_tune](https://github.com/mehdish89/rqt_dyn_tune) package, which is a rqt plugin graphical user interface for **dyn_tune**.
 
 ![alt text](https://raw.githubusercontent.com/mehdish89/rqt_dyn_tune/master/rqt_dyn_tune.png)
 
